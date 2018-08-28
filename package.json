@@ -1,0 +1,21 @@
+{
+  "name": "gafo-vector",
+  "version": "1.0.0",
+  "description": "Low level vector utilities for NLP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./vector -s Vector > dist/vector.js"
+  },
+  "keywords": [
+    "vector",
+    "gafo",
+    "nlp"
+  ],
+  "author": "GAFO TECH",
+  "license": "ISC",
+  "dependencies": {
+    "stemmer": "^1.0.2",
+    "stopwords-en": "^0.3.0"
+  }
+}
